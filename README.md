@@ -1,4 +1,3 @@
-readme_content = """# Candidate Screening Agent with LangGraph and ChatGroq
 
 This project is an automated recruitment screening pipeline built with **LangGraph** and **LangChain**. It uses a stateful workflow to evaluate candidate job applications based on experience levels and skillset alignment using the **Groq API** (via `ChatGroq`).
 
@@ -77,8 +76,3 @@ print(f"Skill Match: {results['skill_match']}")
 print(f"Response: {results['response']}")
 ```
 """
-
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-print("README.md file successfully generated in the environment disk!")
